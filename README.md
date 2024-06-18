@@ -65,7 +65,7 @@ Containers extension:
      Navigator][perlnavigator] extension are installed. Tools are installed at
      Dev Container creation time.
 
-[perlnavigator]: (https://marketplace.visualstudio.com/items?itemName=bscan.perlnavigator)
+[perlnavigator]: https://marketplace.visualstudio.com/items?itemName=bscan.perlnavigator
 
 2. **Terminal:**
     - Press <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>\`</kbd> to open a terminal
