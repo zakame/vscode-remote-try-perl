@@ -1,9 +1,5 @@
 # Try out Development Containers: Perl
 
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)][open-in-dev-containers]
-
-[open-in-dev-containers]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/zakame/vscode-remote-try-perl
-
 A **development container** is a running container with a well-defined
 tool/runtime stack and its prerequisites. You can try out development
 containers with **[GitHub Codespaces][codespaces]** or
@@ -32,12 +28,6 @@ For more detail, visit the [GitHub documentation][creating-a-codespace].
 [creating-a-codespace]: https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces/creating-a-codespace#creating-a-codespace
 
 ### VS Code Dev Containers
-
-If you already have VS Code and Docker installed, you can click the badge
-above or [here][open-in-dev-containers] to get started. Clicking these links
-will cause VS Code to automatically install the Dev Containers extension if
-needed, clone the source code into a container volume, and spin up a dev
-container for use.
 
 Follow these steps to open this sample in a container using the VS Code Dev
 Containers extension:
