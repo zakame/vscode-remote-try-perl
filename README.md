@@ -124,11 +124,12 @@ Containers extension:
 5. **Install Node.js using a Dev Container Feature:**
 
    - Press <kbd>F1</kbd> and select the **Dev Containers: Configure Container
-     Features...** or **Codespaces: Configure Container Features...** command.
+     Features...** or **Codespaces: Configure Add Dev Container Configuration
+     Files...** -> **Modify your active configuration...** commands.
    - Type "node" in the text box at the top.
-   - Check the check box next to "Node.js (via nvm) and yarn" (published by
+   - Check the check box next to "Node.js (via nvm) yarn and pnpm" (published by
      devcontainers) 
-   - Click OK
+   - Click OK, and choose whether to **Keep defaults** or **Configure options**
    - Press <kbd>F1</kbd> and select the **Dev Containers: Rebuild Container**
      or **Codespaces: Rebuild Container** command so the modifications are
      picked up.
