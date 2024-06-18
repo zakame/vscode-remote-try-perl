@@ -82,7 +82,7 @@ Containers extension:
 3. **Build, Run, and Debug:**
 
    - Open `myapp.pl`
-   - Add a breakpoint (e.g. on line 10).
+   - Add a breakpoint (e.g. on line 14).
    - Press <kbd>F5</kbd> to launch the app in the container.
    - Once the breakpoint is hit, try hovering over variables (e.g. the `$app`
      variable on line 4), examining locals, and more.
