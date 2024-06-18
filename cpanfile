@@ -1,4 +1,4 @@
-requires 'perl';
+requires 'perl', '5.016';
 requires 'Mojolicious';
 
 on develop => sub {
