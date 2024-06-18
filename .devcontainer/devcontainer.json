@@ -1,0 +1,36 @@
+{
+    "name": "Perl 5",
+    "dockerComposeFile": "./docker-compose.yml",
+    "init": true,
+    "service": "app",
+    "workspaceFolder": "/usr/src/app",
+    "remoteEnv": {
+        "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "files.associations": {
+                    "cpanfile": "cpanfile"
+                }
+            },
+            "extensions": [
+                "Nihilus118.perl-debugger",
+                "bayashi.perlcpanfile",
+                "bscan.perlnavigator",
+                "kraih.mojolicious"
+            ]            
+        }
+    },
+    "portsAttributes": {
+        "3000": {
+            "label": "Hello Remote World",
+            "onAutoForward": "notify"
+        }
+    },
+    "postCreateCommand": "sudo cpm install -g --with-develop",
+    "remoteUser": "vscode"
+}

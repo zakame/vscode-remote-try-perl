@@ -1,0 +1,3 @@
+# [Choice] Perl version: 5, 5.40, 5.38...
+ARG VARIANT="5-bookworm"
+FROM perl:${VARIANT}
