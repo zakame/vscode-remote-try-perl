@@ -75,7 +75,7 @@ Containers extension:
    - Add a breakpoint (e.g. on line 14).
    - Press <kbd>F5</kbd> to launch the app in the container.
    - Once the breakpoint is hit, try hovering over variables (e.g. the `$app`
-     variable on line 4), examining locals, and more.
+     variable on line 6), examining locals, and more.
    - Continue (<kbd>F5</kbd>). You can connect to the server in the container
      by either: 
       - Clicking on `Open in Browser` in the notification telling you: `Web
